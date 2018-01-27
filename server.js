@@ -6,7 +6,7 @@ const superagent = require('superagent');
 const pg = require('pg');
 const fs = require('fs');
 // const conString = 'postgres://postgres:1234@localhost:5432/grub';
-const conString = 'postgres://postgres:tabinLync@localhost:5432/cf301js';
+const conString = 'postgres://hryuwfriqtupwb:cf75445230798129c0d80c2b139243f2c1deae553f55b5f139d0c37ec7b5c696@ec2-50-19-126-219.compute-1.amazonaws.com:5432/d6370nnudbrrjd';
 
 const client = new pg.Client(conString);
 
