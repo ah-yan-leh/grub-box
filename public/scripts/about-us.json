@@ -1,0 +1,24 @@
+{
+    "dev_team": [
+      {
+        "name": "Mitch Hall",
+        "img_src": "https://ca.slack-edge.com/T039KG69K-U76911R2A-9fcbf50ca530-512",
+        "write_up": "<p>I finished the 201 class thinking I had a pretty good idea of how software development would go. Then I started the first week of 301 and learned that didn't have a good idea at all. However what we have learned in 301, and the why things are done a certain, way makes sense. It certainly allowed us to work together effectively during this group assignment.</p>"
+      },
+      {
+        "name": "Trevor Dobson",
+        "img_src": "https://files.slack.com/files-pri/T039KG69K-F8YBY4EJC/trevorsmallerpic.jpg",
+        "write_up": "<p> Trevor is a veteran of the United States Army. Originally from Iowa, he is now settled in Washington for the foreseeable future. He hopes to combine Code Fellows with his background in business management to jump-start a career in the tech industry. During his free time he enjoys hiking, golfing, and traveling.</p>"
+      },
+      {
+        "name": "Tiger Hsu",
+        "img_src": "https://ca.slack-edge.com/T039KG69K-U6GV50138-7f4f7b1d9160-512",
+        "write_up": "<p> He is a veteran of the coast guard and is currently a reservist in the Air Force.He enjoys learning coding and hopes one day he will be able to be a game developer.On his free time he enjoys woodworking and working on cars. </p>"
+      },
+      {
+        "name": "Ayanle",
+        "img_src": "https://ca.slack-edge.com/T039KG69K-U8657LBAS-cef2056534ff-512",
+        "write_up": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. </p><p>Curabitur sodales ligula in libero. Sed dignissim lacinia nunc. Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at dolor. Maecenas mattis. Sed convallis tristique sem. Proin ut ligula vel nunc egestas porttitor. Morbi lectus risus, iaculis vel, suscipit quis, luctus non, massa. Fusce ac turpis quis ligula lacinia aliquet. Mauris ipsum. </p><p>Nulla metus metus, ullamcorper vel, tincidunt sed, euismod in, nibh. Quisque volutpat condimentum velit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam nec ante. Sed lacinia, urna non tincidunt mattis, tortor neque adipiscing diam, a cursus ipsum ante quis turpis. Nulla facilisi. Ut fringilla. Suspendisse potenti. Nunc feugiat mi a tellus consequat imperdiet. Vestibulum sapien. Proin quam. </p>"
+      }
+    ]
+  }

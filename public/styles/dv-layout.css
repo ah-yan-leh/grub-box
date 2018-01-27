@@ -1,0 +1,78 @@
+@import url(https://fonts.googleapis.com/css?family=Fjalla+One|Lobster);
+
+#googleMap{
+    
+    margin:auto;
+    box-shadow: 0px 0px 5px 8px grey;
+    clear:both;
+    margin-top:30px;
+    margin-bottom:15px
+
+}
+
+.reviews{
+    overflow:auto;
+    padding:20px;
+}
+#rvw-name{
+    font-weight: bold;
+    font-size:1.5em;
+    font-family: 'Lobster', cursive;
+    
+    margin:10px;
+}
+#rvw-img{
+    height:30%;
+    width:30%;
+    float:left;
+    padding:2px;
+    padding-right:20px;
+}
+#rvw-rating{   
+    display:inline-block;
+    color:white;
+    float:left; 
+    clear:both;
+}
+#rvw-date{
+    clear:both;
+}
+#rvw-text{
+    
+}
+.menu{
+    padding-bottom:20px;
+    float:right;
+}
+#ham-search{
+    width:80px;
+    color:black;
+}
+#about-txt{
+    color:white;
+}
+#home-txt{
+    color:white;
+}
+#contact-txt{
+    color:white;
+}
+#reg-txt{
+    color:white;
+}
+#log-txt{
+    color:white;
+}
+#admin-txt{
+    color:white;
+}
+h4.rst-local{
+    text-align:center
+}
+#main-menu-view{
+    width:100%
+}
+#fave-detail{
+    
+}
+

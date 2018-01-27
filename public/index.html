@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./styles/normalize.css">
+    <link rel="stylesheet" href="./styles/icons.css">
+    <link rel="stylesheet" href="./styles/base.css">
+    <link rel="stylesheet" href="./styles/layout.css">
+    <link rel="stylesheet" href="./styles/dv-layout.css">
+    <link rel="stylesheet" href="./styles/modules/user-reg.css">
+
+    <meta property="og:image" content="/home/tigerhsu/code-301/food-for-thought/public/styles/reset.css" />
+    <link href="data:image/x-icon;base64,AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADK1OlOytTpTn+y5UbK1OlOf7LlRsrU6U4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADK1OlOf7Ll/wByzP8Af8z/AH/M/wB/zP8Af8z/AH/M/wCMzP9/suVGytTpTgAAAAAAAAAAAAAAAAAAAAB/suX/AH/M/wCY2P89s+P/AH/L/z2z4/8Af8v/PbPj/z2z4/89s+P/AIzM/z+L2P/K1OlOAAAAAAAAAAAAAAAAAGXM/wB/y/8AGYf/ABmH/wAllP8AGYf/ACWU/wBxWf8AJZT/GWa6/z2z4/8ZmOX/AFi//8rU6U4AAAAAAAAAAAAZev8AJY//AEuy/wAZh/8AWI//AGWc/wDbcv8AcVn/ACWP/wAMdv8MM37/PbPj/wB/y/8AS7L/AAAAAADwcv8/P4//ADKc/wA/fv8A8HL/AORM/wDkTP8A23L/AONy/wBxWf8ADH7/AAxt/z8/fv9/f6X/AH/L/wBLsv8Alyb/AJxh/wBuHf8Aex3/Zrp//3/Qf/9yvv//sv7//3K+//8AiwD/AKU7/wBcUP9/f6X/f3+l/39/pf8Af8v/v9y//wCXJv8Alyb/Wam//3K+//9Msf//TLH//3K+//+Zy///cr7//8z+//8mz2X/AJgA/z+pP/+/5b//AEuy/7/cv/8ynL//TLH//2XL//9LvvL/MrLl/xmy5f8msuX/GbLl/z++//8mpfL/Jpy//wx2P/8AXAD/P5g//7/cv//Y8v81WMv//wyl2P8Af8z/AIzM/wBlzP8Acsz/AHLM/wByzP8Af8z/AH/M/wB/zP8ZpeX/GYey/3/Lf/+/5b//suX//xmy5f8Aftj/AHHY/wCL8P8Ai/D/AIvw/wCL8P8Ai/D/AHHY/wB/zP8Af8z/AH/M/wByv/8Zh7L/ytTp/8rU6U4ZsvH/DKX9/wyl/f8AmP3/AJj9/wCY/f8AmP3/AIvw/wCL8P8Acdj/AHHY/wByzP8WXbv/Fl27/5Wq1P8AAAAAWcv+/ya//v8Mpf3/DKX9/wyl/f8AmP3/AJj9/wCL8P8Ai/D/AIvw/wBx2P8Acdj/IVmy/yFZsv/K1OlOAAAAAAAAAACM2P7/GbL+/wyl/f8Mpf3/DKX9/wyl/f8Mpf3/AH7k/wBx2P8Acdj/LFWq/yFZsv+VqtT/ytTpTgAAAAAAAAAAAAAAAMrU6U6/5f7/f8v+/wBx2P8Acdj/C2HD/xZpx/8hWbL/larU/5Wq1P/K1OlOAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//8AAOAfAACABwAAgAMAAIABAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAACAAAAAgAEAAMABAADwBwAA//8AAA=="
+        rel="icon" type="image/x-icon" />
+</head>
+
+<body>
+    <section class="wrapper">
+
+        <div id="hamburger">
+            <div id="menu-button">
+                <div id="line-1"></div>
+                <div id="line-2"></div>
+                <div id="line-3"></div>
+            </div>
+
+            <ul id="menu">
+                <li data-nav_id="home" style="color:white; text-decoration: none;">
+                    <a href="/">
+                        <h4 id="home-txt">Home</h4>
+                    </a>
+                </li>
+                <li data-nav_id="about">
+                    <a href="/about-us-view">
+                        <h4 id="about-txt">About Us</h4>
+                    </a>
+                </li>
+                <li data-nav_id="contact">
+                    <a href="/contact-us-view">
+                        <h4 id="contact-txt">Contact Us</h4>
+                    </a>
+                </li>
+                <li data-nav_id="register">
+                    <a href="/register-view">
+                        <h4 id="reg-txt">Register</h4>
+                    </a>
+                </li>
+                <li data-nav_id="login">
+                    <a href="/login-view">
+                        <h4 id="log-txt">Login</h4>
+                    </a>
+                </li>
+
+                <li data-nav_id="my-favorites">
+                        <a href="/my-favorites"><h4 id="log-txt">My Favorites</h4></a>
+                </li>
+            </ul>
+        </div>
+
+        <div id="main-menu-view" class="menu">
+            <div id="main-menu-slot">
+
+            </div>
+        </div>
+
+        <div id="top-header-view" class="page">
+            <div id="top-header-slot"></div>
+        </div>
+
+        <div id="zip-search-view" class="page" style=" margin-left:15%;padding: 50px;">
+            <div id="zip-search-slot"></div>
+        </div>
+
+        <div id="detail-view" class="page">
+            <div id="detail-slot"></div>
+        </div>
+        <div id="reviews-view" class="page">
+            <div id="reviews-slot"></div>
+        </div>
+        <div id="list-view" class="page">
+            <div id="list-slot"></div>
+        </div>
+        <div id="admin-view" class="page">
+            <div id="admin-slot"></div>
+        </div>
+        <div id="register-view" class="page">
+            <div id="register-slot"></div>
+        </div>
+        <div id="about-us-view" class="page">
+            <div id="about-us-slot"></div>
+        </div>
+        <div id="contact-us-view" class="page">
+            <div id="contact-us-slot"></div>
+        </div>
+        <div id="login-view" class="page">
+            <div id="login-slot"></div>
+        </div>
+        <div id="user-view" class="page">
+            <div id="user-slot"></div>
+        </div>
+        <div id="error-view" class="page">
+            <div id="error-slot"></div>
+        </div>
+
+        <div id="restaurants-container"></div>
+
+    </section>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.11/handlebars.min.js"></script>
+
+    <script src="https://cdn.rawgit.com/visionmedia/page.js/master/page.js"></script>
+
+
+    <script src="scripts/models/Restaurant.js"></script>
+    <script src="scripts/views/list-view.js"></script>
+    <script src="scripts/views/detail-view.js"></script>
+    <script src="scripts/views/admin-view.js"></script>
+    <script src="scripts/views/navigation/main-menu-view.js"></script>
+    <script src="scripts/views/navigation/top-header-view.js"></script>
+    <script src="scripts/views/about-us-view.js"></script>
+    <script src="scripts/views/contact-us-view.js"></script>
+    <script src="scripts/views/login-view.js"></script>
+    <script src="scripts/views/user-view.js"></script>
+    <script src="scripts/views/register-view.js"></script>
+    <script src="scripts/views/reviews-view.js"></script>
+    <script src="scripts/views/zip-search-view.js"></script>
+    <script src="scripts/views/error-view.js"></script>
+    <script src="scripts/controllers/routes.js"></script>
+    <script>
+        var zipData;
+        $(function () {
+            $("#fave").on('click', function () {
+                console.log($(this).attr('data-res_id'));
+            })
+            $('#searchByZIP').on('click', function (e) {
+                e.preventDefault()
+                var zip = $('#zip').val();
+                var url = 'https://maps.googleapis.com/maps/api/geocode/json?address=' + zip;
+                $.get(url)
+                    .then(function (reviewsTestData) {
+                        for (var index in reviewsTestData) {
+                            var zipData = {
+                                zip: reviewsTestData[index][0].formatted_address,
+                                latitude: reviewsTestData[index][0].geometry.location.lat,
+                                longitude: reviewsTestData[index][0].geometry.location.lng
+                            }
+                            localStorage.setItem('zipData', JSON.stringify(zipData));
+                        }
+
+                        $('#list-slot').empty()
+                    })
+                    .then(function () {
+                        //alert()
+                    })
+                    .catch(function (err) {
+                        //console.error(err)
+                        $('#zip-search-view').hide()
+                        app.ListView.init()
+                    });
+            });
+        });
+    </script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBXzw_66pIoJMRo1Am2TpNyN0XaIl-0QKY&callback=googleMap">
+    </script>
+    <script>
+        function googleMap() {
+            var gMapslong = app.NearbyRes.res_id.longitude * 1;
+            var gMapslat = app.NearbyRes.res_id.latitude * 1;
+            var myCenter = new google.maps.LatLng(gMapslat, gMapslong);
+            var mapCanvas = document.getElementById("googleMap");
+            var mapOptions = {
+                center: myCenter,
+                zoom: 14
+            };
+            var map = new google.maps.Map(mapCanvas, mapOptions);
+            var marker = new google.maps.Marker({
+                position: myCenter
+            });
+            marker.setMap(map);
+        }
+    </script>
+    <script>
+        $("#menu-button").click(function () {
+            $(this).toggleClass("active");
+            $("#line-1").toggleClass("active");
+            $("#line-2").toggleClass("active");
+            $("#line-3").toggleClass("active");
+            $("#menu").slideToggle("slow");
+        });
+    </script>
+</body>
+
+</html>
